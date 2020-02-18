@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+
+    caio:
+        user: root
+        build: .
+        image: dna/caio:latest
+        working_dir: /opt/dna-caio/
+        ports:
+            - 8085:8085
+        volumes:
+            - .:/opt/dna-caio/notebooks
+            - ./dataset:/dataset/
+        environment:
+            - SSH_PRIVATE_KEY=$SSH_PRIVATE_KEY
