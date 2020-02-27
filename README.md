@@ -1,12 +1,20 @@
 # DnA-POC-olist
+  Dna POC olist is a Proof Of Concept that contains hypothesis for the olist market in Brazil.  
+  All of the hypothesis are confirmed or not along the project.
 
-Criar imagem:
-`bash docker.sh image`
+# Main Contributors
+  Caio Almeida  
+  Iuri Slywitch  
+  Luan Silvestre
+
+# How to run
+  ## Create image:  
+  `bash docker.sh image`
 
 
-Executar:
-`bash docker.sh run`
+  ## Execute:  
+  `bash docker.sh run`
 
 
-Acessar Jupyter:
-`localhost:8085`
+  ## Access Jupyter:  
+  `localhost:8085`
