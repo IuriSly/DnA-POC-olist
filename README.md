@@ -9,11 +9,11 @@
 
 # How to run
   ## Create image:  
-  `bash docker.sh image`
+  `docker-compose build --build-arg SSH_PRIVATE_KEY="$(cat ~/.ssh/id_rsa)";`
 
 
   ## Execute:  
-  `bash docker.sh run`
+  `docker-compose up`
 
 
   ## Access Jupyter:  
